@@ -1,0 +1,47 @@
+#navbarSupportedContent{
+    justify-content: end;
+}
+.header1{
+     width: 100%;
+     background-image: url(images/banner-2400x720-new.jpg);
+     background-size:cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+}
+  #btn{
+      background-color: black;
+  }
+  .navbar-toggler{
+      color: white;
+  }
+#text{
+    height: 100%;
+    font-family: var(--ff-header-volvo);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    .carousel-inner {
+      display: flex;
+    }
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+  }
+  
+  .container{
+    font-family: var(--ff-default);
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 2.19;
+
+  }
+  #video{
+    height: 75vh;
+  }
+  .text-white{
+    text-decoration: none;
+  }
